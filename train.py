@@ -42,8 +42,8 @@ model.compile(
     metrics=['accuracy']
 )
 
-# 🚀 Train for 20 Epochs instead of 10!
-print("\n🚀 Training with 20 Epochs...")
+# 🚀 epochs means how many time the model will train from the data
+print("\n🚀 Training with 50 Epochs...")
 model.fit(train_ds, epochs=50)
 
 # Save
